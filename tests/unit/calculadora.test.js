@@ -1,7 +1,7 @@
 // import "Calculadora"
 // import Calculadora from "../models/calculadora";
 
-const Calculadora = require("../models/calculadora");
+const Calculadora = require("../../models/calculadora");
 const calc = new Calculadora();
 
 test("nome", () => {
